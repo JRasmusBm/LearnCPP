@@ -4,19 +4,17 @@
 #include <vector>
 #include <sstream>
 
-int main(int argc, char** argv) {
+const float kilometers = 1.60934;
 
-  std::cout << "Hello World" << std::endl;
+int main() {
 
-  if(argc != 1) {
-    std::cout << "You entered " << argc << " arguments\n";
-  }
-
-
-  for(int i = 0; i < argc; ++i) {
-    std::cout << argv[i] << "\n";
-  }
+  std::string sQuestion ("Enter Distance (Miles): ");
+  std::string sMiles;
+  std::cout << sQuestion;
+  getline(std::cin, sMiles);
+  float miles = std::stof(sMiles);
   
-  return 0;
+  printf("Distance (km): %f\n", miles * kilometers);
 
+  return 0;
 }
