@@ -1,3 +1,0 @@
-/home/rasmus/1_programming/active/learning/c++/tut1/CMakeFiles/rebuild_cache.dir
-/home/rasmus/1_programming/active/learning/c++/tut1/CMakeFiles/tut1.dir
-/home/rasmus/1_programming/active/learning/c++/tut1/CMakeFiles/edit_cache.dir
