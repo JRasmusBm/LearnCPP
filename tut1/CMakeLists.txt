@@ -7,5 +7,5 @@ project(tut1)
 
 add_executable(
   tut1
-  main.cpp
+  src/main.cpp
 )
