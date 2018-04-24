@@ -13,5 +13,10 @@
   "directory": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8",
   "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut8.dir/src/utils/strings.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/strings.cpp",
   "file": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/strings.cpp"
+},
+{
+  "directory": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8",
+  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut8.dir/src/utils/vectors.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/vectors.cpp",
+  "file": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/vectors.cpp"
 }
 ]

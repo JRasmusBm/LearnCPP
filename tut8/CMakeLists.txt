@@ -11,4 +11,5 @@ add_executable(
   "src/main.cpp"
   "src/utils/range.cpp"
   "src/utils/strings.cpp"
+  "src/utils/vectors.cpp"
 )
