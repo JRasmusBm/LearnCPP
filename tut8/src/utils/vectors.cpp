@@ -13,6 +13,22 @@ std::vector<int> GenerateRandomVector(int n, int min, int max) {
   return values;
 }
 
+void DisplayVector(std::vector<int> theVector) {
+  std::string output;
+  output += std::basic_string(5 * theVector.size(), "_") + std::endl;
+  DisplayIndicies(std::vector<int> theVector);
+  output += std::basic_string(5 * theVector.size(), "_") + std::endl;
+  DisplayValues(std::vector<int> theVector);
+  output += std::basic_string(5 * theVector.size(), "_") + std::endl;
+}
+
+void DisplayIndicies(std::vector<int> theVector) {
+  if (theVector.size() == 0) {
+    return "|";
+  }
+  return DisplayIndicies(theVector) format(" %d |", theVector.size() - 1);
+}
+
 void BubbleSort(std::vector<int>& theVector) {
   int i = theVector.size() - 1;
   while(1 <= i) {

@@ -9,12 +9,18 @@
 #include "utils/range.hpp"
 #include "utils/strings.hpp"
 #include "utils/vectors.hpp"
+#include "utils/recursion.hpp"
 
 void TestSort();
+void TestFactorial();
 
 int main() {
-  TestSort();
+  TestFactorial();
   return 0;
+}
+
+void TestFactorial() {
+  std::cout << Factorial(5) << std::endl;
 }
 
 void TestSort() {

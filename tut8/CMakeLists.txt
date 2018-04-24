@@ -12,4 +12,5 @@ add_executable(
   "src/utils/range.cpp"
   "src/utils/strings.cpp"
   "src/utils/vectors.cpp"
+  "src/utils/recursion.cpp"
 )
