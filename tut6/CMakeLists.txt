@@ -8,5 +8,7 @@ project(tut6)
 
 add_executable(
   tut6
-  src/main.cpp
+  "src/main.cpp"
+  "src/utils/range.cpp"
+  "src/utils/strings.cpp"
 )

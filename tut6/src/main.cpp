@@ -5,16 +5,33 @@
 #include <vector>
 #include <algorithm>
 #include <numeric>
-#include "utils/range.cpp"
+#include "utils/range.hpp"
+#include "utils/strings.hpp"
 
-std::vector<std::string> StringToVector(std::string theString, char separator);
-std::string VectorToString(std::vector<std::string> theVector, char separator);
 void StringToVectorTest();
 void HandleCustomers();
+void TestWhitespace();
+void TestIndicies();
+void TestReplace();
 
 int main() {
-  HandleCustomers();
+  TestReplace();
   return 0;
+}
+
+void TestReplace() {
+  std::cout << ReplaceAllSubstrings("To know or not to know", "know", "be") 
+    << std::endl;
+
+}
+
+void TestIndicies() {
+  std::string phrase = "To be or not to be"; 
+  std::vector<int> matches = FindSubstringMatches(phrase, "be");
+  for (auto index: matches) {
+    std::cout << index << " ";
+  }
+  std::cout << std::endl;
 }
 
 void HandleCustomers() {
@@ -35,22 +52,9 @@ void StringToVectorTest() {
   }
 }
 
-std::string VectorToString(std::vector<std::string> theVector, char separator) {
-  std::string result = "";
-  for (auto word: theVector) {
-    result += word + separator;
-  }
-  return result;
+void TestWhitespace() {
+  std::string aStr = "              Just some random words         ";
+  aStr = TrimWhitespace(aStr); 
+  std::cout << "*" << aStr << "*" << std::endl;
 }
 
-std::vector<std::string> StringToVector(std::string theString, char separator)
-{
-  std::vector<std::string> vecsWords;
-
-  std::stringstream ss(theString);
-  std::string sIndivStr;
-  while(getline(ss, sIndivStr, separator)) {
-    vecsWords.push_back(sIndivStr);
-  }
-  return vecsWords;
-}
