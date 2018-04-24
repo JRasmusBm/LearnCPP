@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/rasmus/1_programming/active/learning/LearnCPP/tut6",
+  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut6.dir/src/main.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut6/src/main.cpp",
+  "file": "/home/rasmus/1_programming/active/learning/LearnCPP/tut6/src/main.cpp"
+}
+]
