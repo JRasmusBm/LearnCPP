@@ -1,32 +1,32 @@
 [
 {
   "directory": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8",
-  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut8.dir/src/main.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/main.cpp",
+  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut9.dir/src/main.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/main.cpp",
   "file": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/main.cpp"
 },
 {
   "directory": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8",
-  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut8.dir/src/utils/range.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/range.cpp",
+  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut9.dir/src/utils/range.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/range.cpp",
   "file": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/range.cpp"
 },
 {
   "directory": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8",
-  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut8.dir/src/utils/strings.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/strings.cpp",
+  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut9.dir/src/utils/strings.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/strings.cpp",
   "file": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/strings.cpp"
 },
 {
   "directory": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8",
-  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut8.dir/src/utils/vectors.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/vectors.cpp",
+  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut9.dir/src/utils/vectors.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/vectors.cpp",
   "file": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/vectors.cpp"
 },
 {
   "directory": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8",
-  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut8.dir/src/utils/recursion.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/recursion.cpp",
+  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut9.dir/src/utils/recursion.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/recursion.cpp",
   "file": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/recursion.cpp"
 },
 {
   "directory": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8",
-  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut8.dir/src/utils/geometry.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/geometry.cpp",
+  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut9.dir/src/utils/geometry.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/geometry.cpp",
   "file": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/geometry.cpp"
 }
 ]
