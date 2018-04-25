@@ -23,5 +23,10 @@
   "directory": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8",
   "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut8.dir/src/utils/recursion.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/recursion.cpp",
   "file": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/recursion.cpp"
+},
+{
+  "directory": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8",
+  "command": "/usr/bin/c++     -std=c++17 -g   -o CMakeFiles/tut8.dir/src/utils/geometry.cpp.o -c /home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/geometry.cpp",
+  "file": "/home/rasmus/1_programming/active/learning/LearnCPP/tut8/src/utils/geometry.cpp"
 }
 ]

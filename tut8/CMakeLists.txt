@@ -13,4 +13,5 @@ add_executable(
   "src/utils/strings.cpp"
   "src/utils/vectors.cpp"
   "src/utils/recursion.cpp"
+  "src/utils/geometry.cpp"
 )

@@ -1,6 +1,13 @@
 #include "vectors.hpp"
 #include "range.hpp"
 
+std::vector<int> SubVector(std::vector<int> theVector, int start, int end) {
+  std::vector<int>::const_iterator first = theVector.begin() + start;
+  std::vector<int>::const_iterator last = theVector.begin() + end;
+  std::vector<int> newVec(first, last);
+  return newVec;
+}
+
 std::vector<int> GenerateRandomVector(int n, int min, int max) {
   std::vector<int> values;
   srand(time(NULL));
@@ -14,19 +21,17 @@ std::vector<int> GenerateRandomVector(int n, int min, int max) {
 }
 
 void DisplayVector(std::vector<int> theVector) {
-  std::string output;
-  output += std::basic_string(5 * theVector.size(), "_") + std::endl;
-  DisplayIndicies(std::vector<int> theVector);
-  output += std::basic_string(5 * theVector.size(), "_") + std::endl;
-  DisplayValues(std::vector<int> theVector);
-  output += std::basic_string(5 * theVector.size(), "_") + std::endl;
-}
-
-void DisplayIndicies(std::vector<int> theVector) {
-  if (theVector.size() == 0) {
-    return "|";
+  std::string line(6 * theVector.size(), '-');
+  line += "\n";
+  std::cout << line;
+  for (int n: Range(theVector.size())) {
+    printf("| %2d  ", n);
   }
-  return DisplayIndicies(theVector) format(" %d |", theVector.size() - 1);
+  std::cout << "|\n" << line; 
+  for (int n: Range(theVector.size())) {
+    printf("| %2d  ", theVector[n]);
+  }
+  std::cout << "|\n" << line; 
 }
 
 void BubbleSort(std::vector<int>& theVector) {
